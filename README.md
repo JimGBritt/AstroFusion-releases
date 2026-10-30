@@ -41,6 +41,11 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.3.3**: A clearer list when combining nights: one row per night (earlier snapshots of a night's stack are hidden), nights that
+  overlap can't be picked together, *Select all of this target* picks the deepest stack of each night, and a line under the list
+  says what your selection will do. Combined files remember which nights went into them. Removed the "Close-up crop of target"
+  setting (the Crop control does that job). The settings panel scrolls properly when Fine-tune opens, and scrolling over a
+  drop-down no longer changes its choice.
 - **1.3.2**: Right-click the picture to copy the finished image (or the Before) to the clipboard, and right-click a result in the
   Gallery to copy it, open it or show it in its folder. Added this version history.
 - **1.3.1**: Fixed a green tint on the Moon. New Look list for Moon pictures: Mineral Moon, Mineral Moon Dark (stars) and
