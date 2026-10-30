@@ -2,7 +2,7 @@
 
 Ready-to-run **AstroFusion** apps for stacked TIFFs and Moon / planet pictures from a Vaonis Vespera / Vespera Pro: live
 preview, star reduction and removal, curves, crop, watermark with capture details, recommended settings by object type.
-For the Moon and planets, line up and combine many pictures into one cleaner picture, bring out the Moon's mineral colour,
+For the Moon and planets, line up and combine many pictures into one cleaner picture, bring out the Moon's mineral color,
 and add optional made-up stars (marked as artificial in the saved file). No Python needed.
 
 **Download:** open the [latest release](../../releases/latest) and get the zip for your computer
@@ -24,8 +24,8 @@ Before on the left, now on the right, while you move the sliders. All of these a
 **The Moon, as captured and sharpened** (eight pictures lined up and combined, cropped around the Moon)
 ![AstroFusion with a combined, sharpened Moon](docs/screenshots/moon.jpg)
 
-**The Moon with Mineral colour** (brings out the faint colour differences in the surface; needs a picture that has colour). Here *Color balance* is nudged toward "redder" for warmer seas; slide it the other way for a cooler look.
-![AstroFusion with the Mineral colour control on the Moon](docs/screenshots/moon-mineral.jpg)
+**The Moon with Mineral color** (brings out the faint color differences in the surface; needs a picture that has color). Here *Color balance* is nudged toward "redder" for warmer seas; slide it the other way for a cooler look.
+![AstroFusion with the Mineral color control on the Moon](docs/screenshots/moon-mineral.jpg)
 
 **Gallery**: every result, with the settings that made it
 ![The AstroFusion gallery](docs/screenshots/gallery.jpg)
@@ -38,4 +38,4 @@ The apps are not signed with a paid developer certificate, so the first launch n
   `xattr -dr com.apple.quarantine ~/Downloads/AstroFusion.app`
 - **Windows:** open the `AstroFusion` folder and run `AstroFusion.exe`. If SmartScreen warns, choose **More info**, then **Run anyway**.
 
-Independent of Vaonis and not affiliated with them. Released under the MIT licence (see `LICENSE`).
+Independent of Vaonis and not affiliated with them. Released under the MIT license (see `LICENSE`).
