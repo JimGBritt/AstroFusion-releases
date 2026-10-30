@@ -24,7 +24,7 @@ Before on the left, now on the right, while you move the sliders. All of these a
 **The Moon, as captured and sharpened** (eight pictures lined up and combined, cropped around the Moon)
 ![AstroFusion with a combined, sharpened Moon](docs/screenshots/moon.jpg)
 
-**The Moon with Mineral color** (brings out the faint color differences in the surface; needs a picture that has color). Here *Color balance* is nudged toward "redder" for warmer seas; slide it the other way for a cooler look.
+**The Moon with the "Mineral Moon Dark (stars)" look** (brings out the faint color differences in the surface, deepens the sky and adds made-up stars; the Look list for Moon pictures also has "Mineral Moon" without stars and "Crisp Moon" with no color boost). The watermark at the bottom shows the details read from the pictures: *Live view*, the camera and when it was taken.
 ![AstroFusion with the Mineral color control on the Moon](docs/screenshots/moon-mineral.jpg)
 
 **Gallery**: every result, with the settings that made it
