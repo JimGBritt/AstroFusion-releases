@@ -38,4 +38,22 @@ The apps are not signed with a paid developer certificate, so the first launch n
   `xattr -dr com.apple.quarantine ~/Downloads/AstroFusion.app`
 - **Windows:** open the `AstroFusion` folder and run `AstroFusion.exe`. If SmartScreen warns, choose **More info**, then **Run anyway**.
 
+## Version history
+Newest first. Each release has its full notes on the [releases page](../../releases).
+
+- **1.3.2**: Right-click the picture to copy the finished image (or the Before) to the clipboard, and right-click a result in the
+  Gallery to copy it, open it or show it in its folder. Added this version history.
+- **1.3.1**: Fixed a green tint on the Moon. New Look list for Moon pictures: Mineral Moon, Mineral Moon Dark (stars) and
+  Crisp Moon. Live view pictures are labeled "Live view" and their capture time is read from the file name. Moon results are
+  named "Moon <date>", and a target name typed in the watermark's Object field names the saved file and the Gallery title.
+  Clearer combine summary. American spelling.
+- **1.3.0**: Moon and planet pictures: open a JPG / PNG, or combine many into one cleaner picture. Mineral color, Black sky
+  and optional made-up stars. Crop for every picture, working zoom on Moon pictures, and pictures fill the window.
+- **1.2.1**: Updated build tooling.
+- **1.2.0**: *Check for Updates* with in-app install on the Mac, and this downloads page.
+- **1.1.2**: Recommended settings by object type.
+- **1.1.1**: Place lookup and light-pollution map buttons in the watermark dialog.
+- **1.1.0**: Tone curve, starless mode, watermark, About window, and native Mac and Windows apps.
+- **1.0.0**: First release.
+
 Independent of Vaonis and not affiliated with them. Released under the MIT license (see `LICENSE`).
