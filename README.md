@@ -41,6 +41,10 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.0**: New *3D star animation*: turn a finished deep-sky result into a short video that flies forward through the stars toward
+  your galaxy or nebula (button under the picture, or right-click a result in the Gallery). Choose how far it flies, the length and the
+  size. The button offers to process and save your current picture first if needed. Thin wisps of nebula stay with the nebula instead
+  of flying like stars, and the Moon's craters stay on the Moon.
 - **1.3.6**: Choosing "Whole picture (no crop)" puts the crop size and position sliders back to their start.
 - **1.3.5**: A setting's name turns orange with a dot (●) when you've moved it away from its starting value, so changes are easy to
   spot in every version of the app.
