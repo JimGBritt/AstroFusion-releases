@@ -41,6 +41,10 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.2**: Fixed the 3D star animation on crowded star fields (such as the Pacman Nebula): the stars that fly toward you are now clean,
+  round points in each star's own color and brightness, with short spikes only on the very brightest, and the nebula behind them is never
+  cut up. Opening a single TIFF from a network drive now offers to copy it to this computer first, and *Save location...* lets you choose
+  the folder where results are saved. The 3D star animation window has *Change folder...* for where the video is saved.
 - **1.4.1**: Better *3D star animation*: each star is now found and lifted out on its own, with the background filled in underneath,
   so nebulae like the Jellyfish (IC443) stay intact instead of breaking into chunks. Bright stars take their spikes with them, and the
   first frame matches your finished picture exactly. A picture with too few stars gives a clear message instead of a video.
