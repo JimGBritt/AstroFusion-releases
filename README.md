@@ -41,6 +41,9 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.1**: Better *3D star animation*: each star is now found and lifted out on its own, with the background filled in underneath,
+  so nebulae like the Jellyfish (IC443) stay intact instead of breaking into chunks. Bright stars take their spikes with them, and the
+  first frame matches your finished picture exactly. A picture with too few stars gives a clear message instead of a video.
 - **1.4.0**: New *3D star animation*: turn a finished deep-sky result into a short video that flies forward through the stars toward
   your galaxy or nebula (button under the picture, or right-click a result in the Gallery). Choose how far it flies, the length and the
   size. The button offers to process and save your current picture first if needed. Thin wisps of nebula stay with the nebula instead
