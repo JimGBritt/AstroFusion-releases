@@ -41,6 +41,9 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.7**: Smoother, cleaner results in faint nebulosity: the noise reduction no longer leaves a worm-like, frosted texture that made
+  pictures look painterly at full size (most visible on a nebula with little exposure time). Bright, detailed targets such as the Orion
+  Nebula are unchanged.
 - **1.4.6**: New look, *Dual-band (blue / red)*: a steel-blue nebula with red where hydrogen is strong, a neutral dark sky, and the Palette
   strength slider to dial the red up or down. The red now follows real hydrogen instead of speckling noisy pixels, and the nebula fades into
   the sky without hard-edged patches. Star removal no longer leaves dark specks next to stars.
