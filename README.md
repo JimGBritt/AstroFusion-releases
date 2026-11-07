@@ -41,6 +41,18 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.6**: New look, *Dual-band (blue / red)*: a steel-blue nebula with red where hydrogen is strong, a neutral dark sky, and the Palette
+  strength slider to dial the red up or down. The red now follows real hydrogen instead of speckling noisy pixels, and the nebula fades into
+  the sky without hard-edged patches. Star removal no longer leaves dark specks next to stars.
+  Also new: *Drag a file onto the window* to open it: a TIFF, a picture (JPG / PNG), or several Moon / planet pictures to line up and combine.
+  Opening another picture while you have changes that haven't been processed and saved now asks "Abandon changes?" first, the same question as
+  when you quit. Stars are taken out of the nebula more cleanly: instead of cutting a large hole around each star and filling it in (which left flat
+  patches around bright stars), each star's own brightness is measured and subtracted, so the nebula's texture underneath is kept. Results look
+  the same or slightly crisper, there are fewer leftover stars, and loading takes a second or two longer. *Rotate left* and *Rotate right* (a
+  quarter turn each) sit next to Flip horizontal and Flip vertical; the turn is kept in the saved result and the Gallery settings, the Before
+  picture and zoom spot turn with it, and a crop applies to the turned picture. A network drive that lists its files but can't read them (a dropped
+  connection) now gets a clear "Can't read the file" message instead of a copy that fails. Questions and error messages always open in front of the
+  AstroFusion window, so a hidden box can no longer make the app look frozen.
 - **1.4.2**: Fixed the 3D star animation on crowded star fields (such as the Pacman Nebula): the stars that fly toward you are now clean,
   round points in each star's own color and brightness, with short spikes only on the very brightest, and the nebula behind them is never
   cut up. Opening a single TIFF from a network drive now offers to copy it to this computer first, and *Save location...* lets you choose
