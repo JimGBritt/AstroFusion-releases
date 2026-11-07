@@ -41,6 +41,13 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.9**: New, optional *AI clean-up: less noise, more detail* (a checkbox under the star controls, for deep-sky TIFFs). It uses two small
+  neural-network models from [Cosmic Clarity](https://github.com/setiastro/cosmicclarity) by Franklin Marek (Seti Astro), MIT license, to remove
+  noise and sharpen the nebula while keeping your colors exactly. The first time you tick it, AstroFusion tells you what it will download
+  (about 24 MB, from the author's own page), where it is saved and under which license, and only goes ahead if you agree. The files are checked
+  against a known checksum, can be removed any time by deleting the `.astrofusion_models` folder in your home folder, and are downloaded again
+  (or updated to a newer approved version) the next time you turn it on. Takes a few seconds on a Mac with Apple Silicon and a few minutes
+  elsewhere. Nothing about your pictures leaves your computer. The *Dual-band* look also got a softer, more muted red and a lightly lifted navy sky.
 - **1.4.8**: The *3D star animation* window has *Add the watermark (capture details) to the video* when your picture has a watermark switched
   on. A Moon or planet picture with no stars now gets a made-up star field for the video automatically (your picture is not changed, and the
   window tells you). The watermark's location is now rounded to about 10 km by default, to keep your exact spot private; a choice you
