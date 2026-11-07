@@ -41,6 +41,10 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.8**: The *3D star animation* window has *Add the watermark (capture details) to the video* when your picture has a watermark switched
+  on. A Moon or planet picture with no stars now gets a made-up star field for the video automatically (your picture is not changed, and the
+  window tells you). The watermark's location is now rounded to about 10 km by default, to keep your exact spot private; a choice you
+  already saved is kept, and you can untick it in the watermark details.
 - **1.4.7**: Smoother, cleaner results in faint nebulosity: the noise reduction no longer leaves a worm-like, frosted texture that made
   pictures look painterly at full size (most visible on a nebula with little exposure time). Bright, detailed targets such as the Orion
   Nebula are unchanged.
