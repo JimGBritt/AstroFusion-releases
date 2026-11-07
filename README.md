@@ -41,6 +41,11 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.10**: The *3D star animation* has a new *Flying stars* setting (*As in the picture*, *Brighter*, *Much brighter*): stars in a finished
+  picture are often small and dim, so the video now draws them brighter by default and they are easy to see. New *Fly toward*: the camera can
+  fly toward the middle of the picture, toward the target (the brightest part of the nebula, galaxy or Moon, found automatically, now the
+  default), or toward a spot you click. Fixed *Smaller (1080)* videos failing with "too few stars" on pictures with many small stars; the star
+  finder now adjusts to the video size.
 - **1.4.9**: New, optional *AI clean-up: less noise, more detail* (a checkbox under the star controls, for deep-sky TIFFs). It uses two small
   neural-network models from [Cosmic Clarity](https://github.com/setiastro/cosmicclarity) by Franklin Marek (Seti Astro), MIT license, to remove
   noise and sharpen the nebula while keeping your colors exactly. The first time you tick it, AstroFusion tells you what it will download
