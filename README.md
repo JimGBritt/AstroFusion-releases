@@ -41,6 +41,12 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.11**: New *peek at the Before*: press and hold the picture for a moment, or hold the **B** key, to see the picture as it was just before
+  your latest change (a run of changes made close together counts as one), so you can see exactly what the last slider move did; hold **Shift-B**
+  for the original (or the one you pinned as *Before*). Let go and you are back on your edit. It is off while *Side by side* is showing, and a
+  quick click or a drag still zooms and pans as before. Fixed the 3D star animation on pictures saved with *Remove stars*: it flew leftover specks
+  of nebula as if they were stars (red blobs), and now adds a made-up star field instead, as it does for the Moon. Fixed *Open output folder* and
+  *Open full image* being greyed out for a result loaded from the Gallery.
 - **1.4.10**: The *3D star animation* has a new *Flying stars* setting (*As in the picture*, *Brighter*, *Much brighter*): stars in a finished
   picture are often small and dim, so the video now draws them brighter by default and they are easy to see. New *Fly toward*: the camera can
   fly toward the middle of the picture, toward the target (the brightest part of the nebula, galaxy or Moon, found automatically, now the
