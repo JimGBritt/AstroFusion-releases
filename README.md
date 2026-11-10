@@ -41,6 +41,15 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.14**: New *Compare looks...* (under *Use recommended settings*) shows the open stack in every deep-sky look side by side; click one to
+  use it. Opening a combined stack now notes when other nights of the same target are not in it, with *Add them...* to combine them; stacks
+  the Vespera saved on different nights of one running stack are recognized from its own session record, so only the deepest is used
+  and nights already inside are never counted twice (a combine of such stacks says so instead of making a copy). New *Tools > Tidy up
+  combined stacks...* lists combined stacks that have no saved result, with sizes, and moves the ones you select to the Trash; leaving a stack
+  you just combined without processing it now asks whether to keep it. Open *Browse sessions* and *Choose TIFF* lists refresh after a clean-up.
+  The *History* button from 1.4.13 is folded into *Gallery*: with a stack open, the Gallery opens on that object, and a *Show* menu switches
+  between *This object*, *This stack only* and *All results*.
+  Fixed holding **B** while zoomed in: the *before* picture is now rendered at full size too, so it matches the sharpness of the current view.
 - **1.4.13**: The Gallery now groups results by object: one section per target (click its title to fold it), each holding that object's
   edits newest first, with plain labels such as "Vivid v2 · AI clean-up · no stars" and, when a target's edits came from different stacks,
   the stack's exposure and number of nights. New *History* button (next to *Gallery*, available once a stack is open) shows only the open
