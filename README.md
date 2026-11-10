@@ -41,6 +41,15 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.13**: The Gallery now groups results by object: one section per target (click its title to fold it), each holding that object's
+  edits newest first, with plain labels such as "Vivid v2 · AI clean-up · no stars" and, when a target's edits came from different stacks,
+  the stack's exposure and number of nights. New *History* button (next to *Gallery*, available once a stack is open) shows only the open
+  object's results. Double-click a result to load its stack and settings; *Compare with current* puts a saved result next to the picture
+  being edited; *Star* marks favorites (*Star only* filters to them). The Sun is listed separately from the Moon, and the button bar no
+  longer squeezes its buttons. New *Undo* and *Redo* (Cmd-Z / Cmd-Shift-Z on a Mac, Ctrl-Z / Ctrl-Y on Windows, the Edit menu, or the buttons
+  under the picture): each edit is one step, and the history runs back to the last save or to when the picture was opened. After an undo or
+  redo, holding **B** shows the picture just before the step you are on. The *Before* peek now also works after a crop, flip or rotate,
+  showing the earlier picture whole.
 - **1.4.12**: Very bright cores (the Orion Nebula, the center of Andromeda) no longer wash out to white. When a large part of a picture is
   near-white, *Highlight protection* now rises automatically (up to about 45) to bring back detail in the bright core; a higher manual setting
   is always kept, the Dual-band look is unchanged, and pictures without a blown-out core render as before. Highlights that *Highlight
