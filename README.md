@@ -41,6 +41,14 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.16**: New *Post pack...* in the Gallery prepares a result for sharing: JPEGs fitted to the original shape (2048 px), Instagram portrait
+  4:5, square and story 9:16 (black sky pads the picture, nothing is cropped), with or without the watermark, plus a drafted caption and
+  alt text in a *post pack* folder beside the result. The caption is built from what the files record (object, exposure, telescope, sky
+  darkness) and states what the processing did: enhanced or false-color palettes, AI clean-up, removed stars, and that the stars in a 3D
+  animation are artificial. It uses at most five hashtags (Instagram's limit). It is plain text to edit; AstroFusion never posts anything.
+  Fixed holding **B** while zoomed in right after turning AI clean-up on or off: the *before* picture is now rendered without (or with) the clean-up
+  as it was, instead of looking identical to the current one. Turning AI clean-up on while the look is *Original* (which shows the picture
+  untouched, so the clean-up could not show) now switches to *Natural* and says so.
 - **1.4.15**: *Compare looks* now shows how much of the picture each look blows out to pure white and marks a suggested look: the one that suits
   the object type, or the least blown-out one if that look clips more than 2% of the picture. *Browse sessions* and *Choose TIFF* say how many
   stacks are no longer there after a clean-up or refresh. *Choose TIFF...* starts in the *Combined* folder.
