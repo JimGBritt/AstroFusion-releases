@@ -41,6 +41,9 @@ The apps are not signed with a paid developer certificate, so the first launch n
 ## Version history
 Newest first. Each release has its full notes on the [releases page](../../releases).
 
+- **1.4.15**: *Compare looks* now shows how much of the picture each look blows out to pure white and marks a suggested look: the one that suits
+  the object type, or the least blown-out one if that look clips more than 2% of the picture. *Browse sessions* and *Choose TIFF* say how many
+  stacks are no longer there after a clean-up or refresh. *Choose TIFF...* starts in the *Combined* folder.
 - **1.4.14**: New *Compare looks...* (under *Use recommended settings*) shows the open stack in every deep-sky look side by side; click one to
   use it. Opening a combined stack now notes when other nights of the same target are not in it, with *Add them...* to combine them; stacks
   the Vespera saved on different nights of one running stack are recognized from its own session record, so only the deepest is used
